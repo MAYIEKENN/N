@@ -131,7 +131,7 @@ def process_user(user):
 
 def main():
     """Main execution flow"""
-    user_data_url = "https://api.xalyon.xyz/v1/atom/index.php?endpoint=admin_view"
+    user_data_url = "https://api.xalyon.xyz/v2/atom/index.php?endpoint=admin_view"
     
     # Fetch user data with retries
     users = make_request('GET', user_data_url)
