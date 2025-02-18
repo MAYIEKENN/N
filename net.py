@@ -12,7 +12,7 @@ TEST_URL = "https://apis.mytel.com.mm/network-test/v3/submit"
 OPERATORS = ["MYTEL", "MPT", "OOREDOO", "ATOM"]
 
 # Backup file
-BACKUP_FILE = "/storage/emulated/0/MySrc/mytel/backup.json"
+BACKUP_FILE = "backup.json"
 
 async def fetch_json_data(session):
     """Fetch JSON data from the API and save to backup.json."""
